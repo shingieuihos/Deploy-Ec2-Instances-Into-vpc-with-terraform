@@ -85,4 +85,3 @@ resource "aws_security_group" "shingi_nv_office" {
   }
 }
 
-
