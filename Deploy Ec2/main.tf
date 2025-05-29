@@ -46,7 +46,7 @@ resource "aws_instance" "accounting_instance" {
 resource "aws_security_group" "shingi_nv_office" {
   name        = "ShingiNVOffice"
   description = "Allow RDP, HTTP, and HTTPS"
-  vpc_id      = 	vpc-0760f6a08cad0fc4e
+  vpc_id      =  "vpc-0760f6a08cad0fc4e"
 
   ingress {
     description = "Allow RDP"
